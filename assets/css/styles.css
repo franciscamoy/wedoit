@@ -1,0 +1,124 @@
+html {
+    scroll-behavior: smooth;
+  }
+
+body {
+    font-family: 'Roboto Mono', monospace;
+    justify-content: center;
+    align-items: center;
+}
+
+.nombre_empresa {
+    font-family: 'Roboto Mono', monospace;
+    color: #ffffff;
+    font-size: 24pt;
+}
+
+h1 {
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+h2 {
+    font-family: 'Roboto Mono', monospace;
+    font-weight: 700;
+    font-size: 20pt;
+    color: #004777;
+}
+
+h3 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 12pt;
+    color: #000000;
+}
+
+li {
+    display: block;
+    font-size: 12pt;
+}
+
+
+/*-- NAVEGADOR--*/
+
+.navbar {
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    color: #ffffff;
+    background-color: #004777 !important;
+}
+.fondo__navbar {
+    height: 75px;
+}
+
+/*-- HEADER--*/
+
+.foto_header {
+    background-image: url(../img/principal.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-top: 100px;
+    margin-bottom: 20px;
+}
+
+.texto_header{
+    text-shadow: black;
+    padding-top: 100px;
+    margin-bottom: 20px;
+}
+
+.btn {
+    background-color: #004777;
+    border-style: none;
+}
+
+/*-- FORMULARIO--*/
+
+.formulario_postula {
+    background-color: #b2afc2;
+}
+
+
+/*-- CARDS--*/
+
+.card-deck {
+    margin: 20px;
+ 
+}
+
+.titulo_caracteristicas {
+    width: 220px;
+ 
+}
+
+.lista {
+    padding-left: 0;
+ 
+}
+
+
+/*-- FOOTER--*/
+
+.contacto {
+    background-color: #000000 !important;
+    height: 250px;
+    width: 100%;
+}
+
+.fab {
+    color: #004777;
+}
+
+
+.pie_pagina {
+    background-color: #b2afc2 !important;
+    height: 184px;
+    width: 100vw;
+}

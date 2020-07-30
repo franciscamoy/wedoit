@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>WE DO IT</title>
+
+  <!--iconos -->
+  <script src="https://kit.fontawesome.com/41b8753ddc.js" crossorigin="anonymous"></script>
+
+  <!--bootstrap -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <!--mi estilo -->
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
+
+
+</head>
+
+<body>
+
+  <!-- MENU NAVEGADOR -->
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fondo__barras">
+
+    <div class="container px-3">
+
+      <a class="navbar-brand" href="#">
+        <h1 class="nombre_empresa">WE DO IT</h1>
+      </a>
+
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarNav">
+
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">NOSOTROS<span class="sr-only">(current)</span></a>
+          </li>
+
+          <li class="nav-item active">
+            <a class="nav-link" href="#">PROYECTOS<span class="sr-only">(current)</span></a>
+          </li>
+
+          <li class="nav-item active">
+            <a class="nav-link" href="#">CONTACTO<span class="sr-only">(current)</span></a>
+          </li>
+
+      </div>
+    </div>
+
+  </nav>
+
+  <!-- FOTO PRINCIPAL -->
+
+  <header>
+
+    <div class="container-fluid foto_header text-center">
+
+      <div class="container texto_header">
+        <h1 class="md-text-center lg-text-right titulo_curso">WE DO IT</h1>
+        <h3 class="md-text-center lg-text-right">HACEMOS TUS IDEAS REALIDAD</h3>
+        <hr class="my-4">
+        <p class="md-text-center lg-text-right">
+          <a class="btn btn-primary btn-lg mb-4" onclick="scroll()" href="#postula_form" role="button">CONTACTANOS</a>
+        </p>
+      </div>
+
+    </div>
+
+  </header>
+
+  <!--DETALLES -->
+
+  <main class="container p-4">
+
+    <div class="row justify-content-md-center mt-4">
+
+      <div class="col-12 col-lg-12 text-sm-justify">
+
+        <div class="titulo_caracteristicas">
+          <h2>NOSOTROS
+            <hr class="w-100 d-none d-none mt-1">
+          </h2>
+        </div>
+
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+          Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+          when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+          It has survived not only five centuries, but also the leap into electronic typesetting,
+          remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset
+          sheets containing Lorem Ipsum passages, and more recently with desktop publishing software
+          like Aldus PageMaker including versions of Lorem Ipsum.</p>
+</div>
+
+      </div>
+
+      <div class="p-4">
+
+        
+
+  </main>
+
+  <!--CARDS DOCENTES-->
+
+  <section class="container">
+
+    <h2 class="mt-4 seccion_docentes">PROYECTOS</h2>
+
+    <div class="row row-cols-1 row-cols-md-2">
+      <div class="col mb-4">
+        <div class="card">
+          <img src="assets/img/card-1.png" class="card-img-top" alt="DOCENTE 1">
+          <div class="card-body">
+            <h5 class="card-title">Ricardo Gutierrez</h5>
+            <p class="card-text">Ingeniera Civil Industrial , Universidad de los Andes, Chile
+              Master en Innovación, Adolfo Ibáñez, Chile</p>
+          </div>
+        </div>
+      </div>
+      <div class="col mb-4">
+        <div class="card">
+          <img src="assets/img/card-2.png" class="card-img-top" alt="DOCENTE 2">
+          <div class="card-body">
+            <h5 class="card-title">Felipe Montero</h5>
+            <p class="card-text">Diseñador Gráfico, Universidad Mayor, Chile.
+              Master en Innovación, Universidad Adolfo Ibáñez, Chile.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+  <!--FORMULARIO POSTULA -->
+
+  <section class="container">
+
+    <h2 class="mt-4 text-center" id="postula_form">CONTACTANOS</h2>
+
+    <div class="container formulario_postula">
+      <form>
+        <div class="form-row">
+          <div class="form-group col-md-6">
+            <label for="inputEmail4">Nombre</label>
+            <input type="text" class="form-control" placeholder="Nombres">
+          </div>
+          <div class="form-group col-md-6">
+            <label for="inputPassword4">Apellidos</label>
+            <input type="text" class="form-control" placeholder="Apellidos">
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="form-group col-md-6">
+            <label for="inputEmail4">RUT</label>
+            <input type="text" class="form-control" placeholder="12.345.678-9">
+          </div>
+          <div class="form-group col-md-6">
+            <label for="inputPassword4">Email</label>
+            <input type="text" class="form-control" placeholder="postulante@gmail.com">
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="form-group col-md-6">
+            <label for="inputEmail4">Celular</label>
+            <input type="text" class="form-control" placeholder="+569 1234 5678">
+          </div>
+          <div class="form-group col-md-6">
+            <label for="inputPassword4">Cuéntanos tu proyecto</label>
+            <input type="text" class="form-control" placeholder="Profesión">
+          </div>
+        </div>
+
+        <div class="text-center"><button type="submit" class="btn btn-primary mb-4">ENVIAR</button></div>
+
+      </form>
+    </div>
+  </section>
+
+
+
+
+  <!--CARDS TESTIMONIOS-->
+
+  <section class="container">
+    <h2 class="mt-4 text-center seccion_testimonios">CLIENTES</h2>
+
+    <div class="container row">
+
+      <div class="col-sm-12 col-lg-6 p-4 text-center">
+        <img src="assets/img/card-3rounded.png" class="rounded-circle" alt="Foto personal">
+        <h5 class="card-title mt-4">Ximena Rodriguez</h5>
+        <p class="card-text">“Participé del curso Design Thinking y no me imaginé lo interesante que podría ser.”
+        </p>
+      </div>
+
+      <div class=" col-sm-12 col-lg-6 p-4 text-center">
+        <img src="assets/img/card-4rounded.png" class="rounded-circle" alt="Foto personal">
+        <h5 class="card-title mt-4">Rodrigo Tapia</h5>
+        <p class="card-text">“Sus docentes absolutamente compenetrados en el proceso de enseñanza y utilizando
+          técnicas que, sin saberlo, utilizamos los coaches.”</p>
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <!--FOOTER -->
+
+  <footer>
+
+    <div class="container-fluid contacto">
+      <div class="">
+
+        <div class="mt-4 text-center">
+          <h2 class="text-white mt-4">CONTACTO</h2>
+          <p class="text-white text-center">cursos@udelmar.cl</p>
+          <p class="text-white text-center">Calle 12455, Valparaíso, Chile</p>
+          <p class="text-white text-center">Teléfono: +(56-32) 1234 5678</p>
+        </div>
+
+        <div class="mt-4 text-center">
+          <a href="#"><i class="fab fa-youtube fa-3x"></i></a>
+          <a href="#"><i class="fab fa-twitter-square fa-3x ml-4"></i></a>
+          <a href="#"><i class="fab fa-linkedin fa-3x ml-4"></i></a>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="pie_pagina text-center">
+
+      <div class="col-12 justify-center">
+        <img src="..//ensayo html/assets/img/LOGO_U.jpg" alt="">
+        <p>©Universidad del Mar. Todos los Derechos Reservados.</p>
+      </div>
+
+    </div>
+
+  </footer>
+
+
+
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
